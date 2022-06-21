@@ -3,7 +3,7 @@
 
 using namespace std;
 
-//프로그래머스_Level1_핸드폰 번호 가리기
+//프로그래머스_Level1_핸드폰 번호 가리기 
 
 string solution(string phone_number)
 {
