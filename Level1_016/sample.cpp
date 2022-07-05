@@ -5,7 +5,7 @@
 
 using namespace std;
 
-string solution(string s, int n) 
+string solution(string s, int n)
 {
     string answer = "";
     string temp = "";
@@ -16,7 +16,7 @@ string solution(string s, int n)
         {
             temp = ' ';
         }
-        else if (s[i] + n > 122)
+        else if ((s[i] + n > 122) || (s[i] <= 90 && s[i] + n > 90))
         {
             temp = s[i] + n - 26;
         }
